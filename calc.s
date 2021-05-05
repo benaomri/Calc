@@ -8,7 +8,7 @@ section .data
     debug_mode: db 0
     stack_size: dd 5
 section .bss
-    stack: resd 5
+    stack: resd 5 ; defualtNum
     buffer: resb 80
   
 
